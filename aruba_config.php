@@ -90,20 +90,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             <table>
                               <tr>
                                 <td>
-                                  <br><br><br>
+                                  <br>
                                   <h4>CONFIGURAZIONE POP3S</h4>
                                   <p>Questo tipo di configurazione consente la trasmissione delle informazioni in modalità cifrata.</p>
                                   <h4>Impostazioni account</h4>
                                   <ul>
                                     <li>Nome: Mario Rossi</li>
-                                    <li>E-mail: indirizzo di posta (es: nomecasella@nomedominio.xxx)</li>
+                                    <li>E-mail: indirizzo di posta <br>(es: nomecasella@nomedominio.xxx)</li>
                                     <li>Password: password legata alla casella</li>
                                     <li>Tipo di account: POP3S</li>
                                   </ul>
                                   <h4>Impostazioni server di posta in arrivo</h4>
                                   <ul>
                                     <li>Nome Host: in.postassl.it</li>
-                                    <li>Nome Utente: indirizzo di posta (es: nomecasella@nomedominio.xxx)</li>
+                                    <li>Nome Utente: indirizzo di posta <br>(es: nomecasella@nomedominio.xxx)</li>
                                     <li>Password: la password legata alla casella</li>
                                     <li>Usa SSL: Attivato</li>
                                     <li>Autenticazione: Password</li>
@@ -112,7 +112,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                   <h4>Impostazioni server di posta in uscita</h4>
                                   <ul>
                                     <li>Nome Host: out.postassl.it</li>
-                                    <li>Nome Utente: indirizzo di posta (es: nomecasella@nomedominio.xxx)</li>
+                                    <li>Nome Utente: indirizzo di posta <br>(es: nomecasella@nomedominio.xxx)</li>
                                     <li>Password: la password legata alla casella</li>
                                     <li>Usa SSL: Attivato</li>
                                     <li>Autenticazione: Password</li>
@@ -123,19 +123,20 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
                             <!--<tr>-->
                                 <td>
+                                  <br>
                                   <h4>CONFIGURAZIONE IMAP4S</h4>
                                   <p>Il protocollo IMAP4S consente la condivisione di tutte le cartelle di una stessa casella di posta tra più utenti e/o dispositivi.</p>
                                   <h4>Impostazioni account</h4>
                                   <ul>
                                     <li>Nome: Mario Rossi</li>
-                                    <li>E-mail: indirizzo di posta (es: nomecasella@nomedominio.xxx)</li>
+                                    <li>E-mail: indirizzo di posta <br>(es: nomecasella@nomedominio.xxx)</li>
                                     <li>Password: la password legata alla casella</li>
                                     <li>Tipo di Account: IMAP4S</li>
                                   </ul>
                                   <h4>Impostazioni server di posta in arrivo</h4>
                                   <ul>
                                     <li>Nome Host: in.postassl.it</li>
-                                    <li>Nome Utente: indirizzo di posta (es: nomecasella@nomedominio.xxx)</li>
+                                    <li>Nome Utente: indirizzo di posta <br>(es: nomecasella@nomedominio.xxx)</li>
                                     <li>Password: la password legata alla casella</li>
                                     <li>Usa SSL: Attivato</li>
                                     <li>Autenticazione: Password</li>
@@ -144,7 +145,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                   <h4>Impostazioni server di posta in uscita</h4>
                                   <ul>
                                     <li>Nome Host: out.postassl.it</li>
-                                    <li>Nome Utente: indirizzo di posta (es: nomecasella@nomedominio.xxx)</li>
+                                    <li>Nome Utente: indirizzo di posta <br>(es: nomecasella@nomedominio.xxx)</li>
                                     <li>Password: la password legata alla casella</li>
                                     <li>Usa SSL: Attivato</li>
                                     <li>Autenticazione: Password</li>
@@ -154,9 +155,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                               </tr>
                             </table>
 
-                            <p>
-                            	<a href="mailto:commerciale@vista.it?subject=Lavora con noi - Junior Developer">Invia CV</a>
-                            </p>
                         </div>
                     </div>
                 </div>
