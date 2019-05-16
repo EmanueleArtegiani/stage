@@ -86,77 +86,70 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             <i class="fa fa-clipboard"></i>
                         </div>
                         <div class="media-body">
-                            <h3 class="media-heading">Casella aruba business su client di posta e dispositivi mobile</h3>
-                            <table>
-                              <tr>
-                                <td>
-                                  <br>
-                                  <h4>CONFIGURAZIONE POP3S</h4>
-                                  <p>Questo tipo di configurazione consente la trasmissione delle informazioni in modalità cifrata.</p>
-                                  <h4>Impostazioni account</h4>
-                                  <ul>
-                                    <li>Nome: Mario Rossi</li>
-                                    <li>E-mail: indirizzo di posta <br>(es: nomecasella@nomedominio.xxx)</li>
-                                    <li>Password: password legata alla casella</li>
-                                    <li>Tipo di account: POP3S</li>
-                                  </ul>
-                                  <h4>Impostazioni server di posta in arrivo</h4>
-                                  <ul>
-                                    <li>Nome Host: in.postassl.it</li>
-                                    <li>Nome Utente: indirizzo di posta <br>(es: nomecasella@nomedominio.xxx)</li>
-                                    <li>Password: la password legata alla casella</li>
-                                    <li>Usa SSL: Attivato</li>
-                                    <li>Autenticazione: Password</li>
-                                    <li>Porta Server: 995</li>
-                                  </ul>
-                                  <h4>Impostazioni server di posta in uscita</h4>
-                                  <ul>
-                                    <li>Nome Host: out.postassl.it</li>
-                                    <li>Nome Utente: indirizzo di posta <br>(es: nomecasella@nomedominio.xxx)</li>
-                                    <li>Password: la password legata alla casella</li>
-                                    <li>Usa SSL: Attivato</li>
-                                    <li>Autenticazione: Password</li>
-                                    <li>Porta Server: 465</li>
-                                  </ul>
-                                </td>
-                            <!--</tr>-->
+                          <h3 class="media-heading">Casella aruba business su client di posta e dispositivi mobile</h3>
+                          <div class="row">
+                            <br>
+                            <div class="col-md-6"><h4>CONFIGURAZIONE POP3S</h4>
+                              <p>Questo tipo di configurazione consente la trasmissione delle informazioni in modalità cifrata.</p>
+                              <h4>Impostazioni account</h4>
+                              <ul>
+                                <li>Nome: Mario Rossi</li>
+                                <li>E-mail: indirizzo di posta <br>(es: nomecasella@nomedominio.xxx)</li>
+                                <li>Password: password legata alla casella</li>
+                                <li>Tipo di account: POP3S</li>
+                              </ul>
+                              <h4>Impostazioni server di posta in arrivo</h4>
+                              <ul>
+                                <li>Nome Host: in.postassl.it</li>
+                                <li>Nome Utente: indirizzo di posta <br>(es: nomecasella@nomedominio.xxx)</li>
+                                <li>Password: la password legata alla casella</li>
+                                <li>Usa SSL: Attivato</li>
+                                <li>Autenticazione: Password</li>
+                                <li>Porta Server: 995</li>
+                              </ul>
+                              <h4>Impostazioni server di posta in uscita</h4>
+                              <ul>
+                                <li>Nome Host: out.postassl.it</li>
+                                <li>Nome Utente: indirizzo di posta <br>(es: nomecasella@nomedominio.xxx)</li>
+                                <li>Password: la password legata alla casella</li>
+                                <li>Usa SSL: Attivato</li>
+                                <li>Autenticazione: Password</li>
+                                <li>Porta Server: 465</li>
+                              </ul>
+                              <br>
+                          </div>
+                          <!--prove-->
 
-                            <!--<tr>-->
-                                <td>
-                                  <br>
-                                  <h4>CONFIGURAZIONE IMAP4S</h4>
-                                  <p>Il protocollo IMAP4S consente la condivisione di tutte le cartelle di una stessa casella di posta tra più utenti e/o dispositivi.</p>
-                                  <h4>Impostazioni account</h4>
-                                  <ul>
-                                    <li>Nome: Mario Rossi</li>
-                                    <li>E-mail: indirizzo di posta <br>(es: nomecasella@nomedominio.xxx)</li>
-                                    <li>Password: la password legata alla casella</li>
-                                    <li>Tipo di Account: IMAP4S</li>
-                                  </ul>
-                                  <h4>Impostazioni server di posta in arrivo</h4>
-                                  <ul>
-                                    <li>Nome Host: in.postassl.it</li>
-                                    <li>Nome Utente: indirizzo di posta <br>(es: nomecasella@nomedominio.xxx)</li>
-                                    <li>Password: la password legata alla casella</li>
-                                    <li>Usa SSL: Attivato</li>
-                                    <li>Autenticazione: Password</li>
-                                    <li>Porta Server: 993</li>
-                                  </ul>
-                                  <h4>Impostazioni server di posta in uscita</h4>
-                                  <ul>
-                                    <li>Nome Host: out.postassl.it</li>
-                                    <li>Nome Utente: indirizzo di posta <br>(es: nomecasella@nomedominio.xxx)</li>
-                                    <li>Password: la password legata alla casella</li>
-                                    <li>Usa SSL: Attivato</li>
-                                    <li>Autenticazione: Password</li>
-                                    <li>Porta Server: 465</li>
-                                  </ul>
-                                </td>
-                              </tr>
-                            </table>
-
-                        </div>
-                    </div>
+                          <!--prove-->
+                          <div class="col-md-6"><h4>CONFIGURAZIONE IMAP4S</h4>
+                            <p>Il protocollo IMAP4S consente la condivisione di tutte le cartelle di una stessa casella di posta tra più utenti e/o dispositivi.</p>
+                              <h4>Impostazioni account</h4>
+                              <ul>
+                                <li>Nome: Mario Rossi</li>
+                                <li>E-mail: indirizzo di posta <br>(es: nomecasella@nomedominio.xxx)</li>
+                                <li>Password: la password legata alla casella</li>
+                                <li>Tipo di Account: IMAP4S</li>
+                              </ul>
+                              <h4>Impostazioni server di posta in arrivo</h4>
+                              <ul>
+                                <li>Nome Host: in.postassl.it</li>
+                                <li>Nome Utente: indirizzo di posta <br>(es: nomecasella@nomedominio.xxx)</li>
+                                <li>Password: la password legata alla casella</li>
+                                <li>Usa SSL: Attivato</li>
+                                <li>Autenticazione: Password</li>
+                                <li>Porta Server: 993</li>
+                              </ul>
+                              <h4>Impostazioni server di posta in uscita</h4>
+                              <ul>
+                                <li>Nome Host: out.postassl.it</li>
+                                <li>Nome Utente: indirizzo di posta <br>(es: nomecasella@nomedominio.xxx)</li>
+                                <li>Password: la password legata alla casella</li>
+                                <li>Usa SSL: Attivato</li>
+                                <li>Autenticazione: Password</li>
+                                <li>Porta Server: 465</li>
+                              </ul>
+                            </div>
+                          </div>
                 </div>
         	</div>
         </div>
