@@ -21,7 +21,7 @@
 
 <?php
 $esiste=0;
-$valido=0;
+//$valido=0;
 $dim=0;
 
 if (file_exists($_POST["filename"])) {
@@ -38,7 +38,11 @@ if (file_exists($_POST["filename"])) {
   }
 
   $dim=filesize($_POST["filename"]);
-  echo "la dimensione del file è di ".filesize($_POST["filename"])." bytes<br>";
+  if($dim!=0) echo "la dimensione del file è di ".$dim/*filesize($_POST["filename"])*/." bytes<br>";
 
-  //if($esiste==1) <script>alert("file esistente");</script>
-?>
+  if($esiste==1) {
+    ?>
+    <script>alert("Il file cercato esiste");</script>
+    <?php
+  }
+//?>
