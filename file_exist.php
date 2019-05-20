@@ -41,10 +41,15 @@ if (file_exists($_POST["filename"])) {
   if($dim!=0) echo "la dimensione del file è di ".$dim/*filesize($_POST["filename"])*/." bytes<br>";
 
   if($esiste==1) {
+    //echo readfile($_POST["filename"]);
     ?>
     <script>alert("Il file cercato esiste");</script>
-    <!--<img src="/var/www/html/prova">-->
-    <img src="prova.jpg" class="img-circle">
+    <br>
+    Contenuto file:
+    <br>
+    <!--<img src="/var/www/html/prova">
+    <img src="prova.jpg" class="img-circle">-->
     <?php
+    if($dim<1000) readfile($_POST["filename"]);
   }
 //?>
