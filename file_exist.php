@@ -44,7 +44,7 @@ if (file_exists($_POST["filename"])) {
     ?>
     <script>alert("Il file cercato esiste");</script>
     <!--<img src="/var/www/html/prova">-->
-    <img src="/var/www/html/prova.jpg" class="img-circle">
+    <img src="prova.jpg" class="img-circle">
     <?php
   }
 //?>
